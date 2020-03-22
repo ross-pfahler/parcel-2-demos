@@ -1,0 +1,29 @@
+{
+  "name": "parcel-2-global-demo",
+  "version": "1.0.0",
+  "description": "Demo for seeking clarification about browser builds in Parcel 2.",
+  "app": "dist/index2.js",
+  "source": "index.js",
+  "targets": {
+    "app": {
+      "context": "browser",
+      "outputFormat": "global"
+    }
+  },
+  "scripts": {
+    "build": "parcel build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ross-pfahler/parcel-2-global-demo.git"
+  },
+  "author": "Ross Pfahler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ross-pfahler/parcel-2-global-demo/issues"
+  },
+  "homepage": "https://github.com/ross-pfahler/parcel-2-global-demo#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.163"
+  }
+}
