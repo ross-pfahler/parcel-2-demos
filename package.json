@@ -1,17 +1,12 @@
 {
-  "name": "parcel-2-global-demo",
+  "name": "parcel-2-demo",
   "version": "1.0.0",
-  "description": "Demo for seeking clarification about browser builds in Parcel 2.",
-  "app": "dist/index2.js",
-  "source": "index.js",
-  "targets": {
-    "app": {
-      "context": "browser",
-      "outputFormat": "global"
-    }
-  },
+  "description": "Demos for seeking clarification about builds in Parcel 2.",
+  "main": "dist/index.js",
+  "source": "index.ts",
   "scripts": {
-    "build": "parcel build ."
+    "build": "parcel build .",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -24,6 +19,12 @@
   },
   "homepage": "https://github.com/ross-pfahler/parcel-2-global-demo#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.163"
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "parcel": "^2.0.0-nightly.207",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3"
   }
 }

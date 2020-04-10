@@ -1,3 +1,3 @@
-# Parcel 2 Global Demo
+# Parcel 2 Demos
 
-Demo for seeking clarification about browser builds in Parcel 2.
+Demos for seeking clarification about builds in Parcel 2.
