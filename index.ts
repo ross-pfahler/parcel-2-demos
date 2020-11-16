@@ -1,19 +1,8 @@
-class Base {
-  public get: () => any;
-  public value: any;
+// import a from './async';
 
-  constructor(value) {
-    this.value = value;
-    this.get = () => value;
-  }
+function Index() {
+  console.log('index');
+  // a();
 }
 
-class Extension extends Base {
-  public get!: () => number;
-}
-
-const b = new Base(123);
-console.log('base get', b.get());
-
-const e = new Extension(123);
-console.log('extension get', e.get());
+Index();
