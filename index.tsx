@@ -1,19 +1,12 @@
-class Base {
-  public get: () => any;
-  public value: any;
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-  constructor(value) {
-    this.value = value;
-    this.get = () => value;
-  }
+function App() {
+  return <div>an app</div>;
 }
 
-class Extension extends Base {
-  public get!: () => number;
+function render(element) {
+  ReactDOM.render(<App />, element);
 }
 
-const b = new Base(123);
-console.log('base get', b.get());
-
-const e = new Extension(123);
-console.log('extension get', e.get());
+render(document.getElementById('app'));
