@@ -1,0 +1,16 @@
+{
+  "name": "parcel-2-demo-a",
+  "version": "1.0.0",
+  "description": "Demos for seeking clarification about builds in Parcel 2.",
+  "source": "./index.ts",
+  "author": "Ross Pfahler",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "typescript": "^4.4.4"
+  }
+}
